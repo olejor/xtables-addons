@@ -1,0 +1,8 @@
+The GREKEY target is only operates on protocol 47 [GRE]. This target
+will set the key field to 00000000 [GREKEY] if "key present" is set to 1.
+
+[GRE] Generic Routing Encapsulation (GRE)
+    http://tools.ietf.org/html/rfc2784.html
+
+[GREKEY] Key and Sequence Number Extensions to GRE
+    http://tools.ietf.org/html/rfc2890.html
